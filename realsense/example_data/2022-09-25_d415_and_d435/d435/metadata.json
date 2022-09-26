@@ -1,0 +1,35 @@
+{
+  "color_channels": 3,
+  "color_dt": "UInt8",
+  "color_format": "RGB8",
+  "depth_dt": "UInt16",
+  "depth_format": "Z16",
+  "depth_scale": 999.9999389648438,
+  "device_name": "Intel RealSense D435",
+  "fps": 30.0,
+  "height": 720,
+  "intrinsics": {
+    "width": 1280,
+    "height": 720,
+    "intrinsic_matrix": [
+      [
+        913.098876953125,
+        0.0,
+        643.0823364257812
+      ],
+      [
+        0.0,
+        912.3365478515625,
+        371.24755859375
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "serial_number": "032622073024",
+  "stream_length_usec": 0,
+  "width": 1280
+}

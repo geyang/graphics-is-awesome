@@ -1,0 +1,35 @@
+{
+  "color_channels": 3,
+  "color_dt": "UInt8",
+  "color_format": "RGB8",
+  "depth_dt": "UInt16",
+  "depth_format": "Z16",
+  "depth_scale": 999.9999389648438,
+  "device_name": "Intel RealSense D415",
+  "fps": 30.0,
+  "height": 720,
+  "intrinsics": {
+    "width": 1280,
+    "height": 720,
+    "intrinsic_matrix": [
+      [
+        924.7018432617188,
+        0.0,
+        634.0343017578125
+      ],
+      [
+        0.0,
+        924.547607421875,
+        359.41400146484375
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "serial_number": "821212060083",
+  "stream_length_usec": 0,
+  "width": 1280
+}
