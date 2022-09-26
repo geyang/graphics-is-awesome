@@ -1,6 +1,5 @@
 import torch
 from einops import rearrange
-import numpy as np
 from kornia import create_meshgrid
 
 
@@ -23,8 +22,7 @@ def get_ray_directions(H, W, K, D=None, return_uv=False, flatten=True):
 
     # without +0.5 pixel centering
     fx, fy, cx, cy = K[0, 0], K[1, 1], K[0, 2], K[1, 2]
-    directions = \
-        torch.stack([(i - cx) / fx, -(j - cy) / fy, -torch.ones_like(i)], -1)
+    directions = torch.stack([(i - cx) / fx, -(j - cy) / fy, -torch.ones_like(i)], -1)
     if flatten:
         directions = directions.reshape(-1, 3)
         grid = grid.reshape(-1, 2)
